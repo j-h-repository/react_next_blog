@@ -1,0 +1,75 @@
+@import "./components/navigation.css";
+@import "./components/footer.css";
+@import "./components/text.css";
+@import "./components/cards/card.css";
+@import "./components/techImg/techimages.css";
+@import "./components/form/button.css";
+@import "./components/form/input.css";
+@import "./components/figures/figure.css";
+@import "./components/cards/post.css";
+
+.main {
+    min-height: 90vh;
+    width: 90vw;
+    
+    padding:100px;
+    margin-top: 100px;
+    overflow-y: scroll;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#EFEAD8 ;
+    overflow-x: hidden;
+}
+
+.main-in{
+    animation-name: enter;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes enter {
+    0%{opacity: 0.00; transform: translateY(-1000px)};
+    99%{opacity: 0.00; transform: translateY(-500px)}
+    100%{opacity: 1.00; transform: translateY(0px)};
+}
+
+.main-out{
+    animation-name: exit;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes exit {
+    0%{opacity: 1.00; transform: translateY(0px)};
+    100%{opacity: 0.00; transform: translateY(-500px)};
+}
+
+body{
+    background-color: #5F7161;
+    
+}
+
+/* body:hover{
+    cursor:url("../images/cursor.png"), default;
+} */
+
+
+
+/* 
+main colors:
+
+#5F7161 , flat undergrowth green
+
+#6D8B74 , lighter pine
+
+#EFEAD8 , vanilla off white
+
+#D0C9C0 , darker gray
+
+
+*/
+
+

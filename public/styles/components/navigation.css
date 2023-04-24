@@ -1,0 +1,29 @@
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #5F7161; /*#5F7161*/
+    color: #EFEAD8;
+    height: 50px;
+    padding:10px;
+    position:fixed;
+    bottom: 100;
+    z-index: 2;
+}
+
+.navigation div:hover{
+    cursor:pointer;
+}
+
+.inner-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.inner-nav div{
+  
+    padding-right: 20px;
+}
+

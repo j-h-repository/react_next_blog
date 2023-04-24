@@ -1,0 +1,17 @@
+
+
+
+
+.form-control:read-write{
+    background-color: #EFEAD8;
+    color: #5F7161;
+}
+
+select {
+    background-color: #EFEAD8;
+    color: #5F7161;
+}
+
+.creating{
+    width: 60%;
+}

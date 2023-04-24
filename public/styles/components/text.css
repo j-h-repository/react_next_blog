@@ -1,0 +1,38 @@
+
+
+.light-text{
+    padding:15px;
+    color: #EFEAD8;
+}
+
+.dark-text{
+    padding:15px;
+    color: #5F7161;
+}
+
+.lighter-dark-text{
+    padding:15px;
+    color:#6D8B74 ;
+}
+
+
+.onDisplay{
+    font-size: 50px;
+}
+
+.heading{
+    font-size: 40px;
+}
+
+.body-text{
+    font-size:25px
+}
+
+a{
+    color: #EFEAD8;
+}
+
+
+textarea {
+    width: 400px;
+}

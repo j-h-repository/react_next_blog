@@ -1,0 +1,11 @@
+
+const **pageName** = ()=>{
+    return (    
+
+        <div className="main">
+
+        </div>
+    )
+}
+
+export default pageName

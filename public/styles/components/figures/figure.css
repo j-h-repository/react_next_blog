@@ -1,0 +1,34 @@
+
+
+
+
+.box{
+    background-color: #EFEAD8;
+    height: 2px;
+    text-align: center;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    border-radius: 50px;
+}
+
+.edit-item:hover>.box{
+    width:0%;
+    animation-fill-mode: forwards;
+    animation-name: editline;
+    animation-duration: 1s;
+}
+
+@keyframes editline{
+    0%{width:0%;}
+    100%{width: 100%;}
+}
+
+.edit-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:default;
+  
+}

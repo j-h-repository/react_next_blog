@@ -1,0 +1,29 @@
+
+.card {
+    width: 300px;
+    max-height: auto;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #EFEAD8;
+    transition: all .5s;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card img{
+    padding-top: 15px;
+    height: auto;
+    width: 300px;
+}
+
+.card-body{
+   color: #5F7161 ;
+   font-weight: bolder;
+   text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px black 1px;
+  
+}
