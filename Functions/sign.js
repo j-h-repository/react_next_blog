@@ -29,7 +29,7 @@ export const signUp = async (one,two,three)=>{
 
 export const signIn = async (one,two)=>{
    
-        try{ const data =  await axios.post(`/sign-in`, {
+        try{ const {data} =  await axios.post(`/sign-in`, {
             one,two
         })
             if(data && data.user && data.token){
