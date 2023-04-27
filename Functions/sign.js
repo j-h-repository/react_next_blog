@@ -10,7 +10,7 @@ export const signUp = async (one,two,three)=>{
         return (console.log("passwords must match"))
     } else{
        
-        try{ const {data} =  await axios.post(`${process.env.NEXT_PUBLIC_API}/sign-up`, {
+        try{ const {data} =  await axios.post(`/sign-up`, {
             one,three
         })
             if(data && data.ok){
