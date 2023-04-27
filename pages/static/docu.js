@@ -1,11 +1,11 @@
-import Page from "../template/template"
+
 
 const Documentation = ()=>{
     return (
 
-        <Page>
-            
-        </Page>
+       <h1>
+            hi
+       </h1>
     
     )
 }
